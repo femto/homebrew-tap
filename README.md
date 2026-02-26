@@ -3,8 +3,7 @@
 ## Install
 
 ```bash
-brew tap femto/tap
-brew install --cask minion-mind
+brew install --cask femto/tap/minion-mind
 ```
 
 Optional: install into user Applications folder.
