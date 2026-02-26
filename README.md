@@ -18,6 +18,15 @@ If macOS still blocks launch due to quarantine, you can use:
 brew install --cask --no-quarantine minion-mind
 ```
 
+If you already installed via DMG, Homebrew may report an existing app at `/Applications/Minion Mind.app`. You can either force-install or delete the existing app first:
+
+```bash
+brew install --cask --force femto/tap/minion-mind
+# or
+rm -rf /Applications/Minion\ Mind.app
+brew install --cask femto/tap/minion-mind
+```
+
 ## Update
 
 ```bash
