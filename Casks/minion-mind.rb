@@ -3,8 +3,8 @@ cask "minion-mind" do
 
   arch arm: "arm64", intel: "x64"
 
-  sha256 arm: "__SHA256_ARM64__",
-         intel: "__SHA256_X64__"
+  sha256 arm: "1ec265c4bcb2f4eb2bae001412534641c1b54303df4d6d07eb6e04507da6179f",
+         intel: "35410226e1ab0ab5386b4d4db7a7118708b8341a070bb5d2b48c5aa1b3377026"
 
   url "https://github.com/femto/minion-mind-releases/releases/download/v#{version}/Minion-Mind-#{version}-#{arch}-mac.dmg"
   name "Minion Mind"
