@@ -1,10 +1,10 @@
 cask "minion-mind" do
-  version "0.2.109"
+  version "0.2.110"
 
   arch arm: "arm64", intel: "x64"
 
-  sha256 arm: "5a3db7d46251b6b08d1e75fe4b18a9bec97f2200feba950ab6383dca1e20e51c",
-         intel: "27fdc903237bbe249c76cb2dd3468433bb313dbf5eb4f76ea566a1074f1beaf5"
+  sha256 arm: "b04bb69bd55781b9194c330366640970b2727d0f9e7369e66aa7c09a36e98569",
+         intel: "36b10ea7e6038817635e3710252cc4b8307f9ab78aee8b8745f248e226dab103"
 
   url "https://github.com/femto/minion-mind-releases/releases/download/v#{version}/Minion-Mind-#{version}-#{arch}-mac.dmg"
   name "Minion Mind"
